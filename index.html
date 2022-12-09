@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h3>Reena Cinema</h3>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#register">Register</a>
+        </div>
+    </header><br><br>
+
+    <main>
+        <div class="movie">
+            <h2>Upcoming movie</h2>
+            <video src="./y2mate.com - Rudeboy  Reason With Me Official Video_720p.mp4" controls>
+
+            </video>
+        </div>
+        <section class="form-container" id="register">
+            <h2>Movie Ticket</h2>
+            <form action="" method="post">
+
+                <div class="form-element">
+                    <label for="name">Name</label>
+                    <input type="text" name="Name" placeholder="Full name" required="">
+                </div>
+
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="kareen@gmail.com" required="">
+                </div>
+
+                <div class="form-element">
+                    <label for="phone-number">Phone-number</label>
+                    <input type="tel" name="phone-numner" id="phone-numner" placeholder="+234-09034534699" required="">
+                </div>
+
+                <div class="form-element">
+                    <label for="gender">gender</label>
+                    <select name="gender" id="dender" required="">Gender
+                        <option value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                <div class="form-element">
+                    <label for="movie-type">Movie type</label>
+                    <select name="movie" id="" required="">Movie Type
+                        <option value=""></option>
+                        <option value="action">Action</option>
+                        <option value="horror">Horror</option>
+                        <option value="romance">Romance</option>
+                        <option value="black-panter-2">Black-panter-2</option>
+                        <option value="the-woman-king">The-woman-king</option>
+                    </select>
+                </div>
+
+                <div class="form-element">
+                    <label for="time">Time</label>
+                   <select name="movie-time" id="movie-time" required="">Movie Type
+                        <option value=""></option>
+                        <option value="10:00-12:00pm">10:00-12:00pm</option>
+                        <option value="2:00-3:30pm">2:00-3:30pm</option>
+                        <option value="3:00-5:00pm">3:00-5:00pm</option>
+                        <option value="7:00-9:00pm">7:00-9:00pm</option>
+                        <option value="9:00-11:00pm">9:00-11:00pm</option>
+                    </select>
+                </div>
+
+                <div class="form-element">
+                    <label for="date">Date</label>
+                    <input type="date" name="move-time" id="movie-time">
+                </div>
+
+            <div class="form-element">
+                    <input type="submit" id="submit" value="Register">
+            </div>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; Reena Cinema 2022</p>
+
+    </footer>
+
+</body>
+</html>
